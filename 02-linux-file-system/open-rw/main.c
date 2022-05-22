@@ -9,7 +9,7 @@ int main (void)
 { 
     int fd; 
     int numb_read, numb_write;
-    char buf1[13] = "hello world\n"; 
+    char buf1[12] = "hello world\n"; 
   
     // assume foobar.txt is already created 
     //fd: stand for file  descriptor
